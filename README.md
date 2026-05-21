@@ -4,7 +4,7 @@
 
 A custom-variable carbon footprint calculator for conferences and events in **Pakistan and South Asia** — built as a fully static, single-file tool with no backend, no framework, and no build step. Open it. Dial in your numbers. See the truth.
 
-**🌐 Live:** [carbon-accountability-conference-ve.vercel.app](https://carbon-accountability-conference-ve.vercel.app/)
+**🌐 Live:** [carbon-accountability-conference-version.vercel.app](https://carbon-accountability-conference-version.vercel.app/)
 
 ---
 
