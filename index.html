@@ -839,11 +839,73 @@ input[type=range]::-webkit-slider-thumb:hover {
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border-primary); border-radius: 2px; }
 
+/* ── RESPONSIVE ─────────────────────────────── */
+
+/* Large tablet: stack the two-column layout */
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }
   .inputs-panel { position: static; max-height: none; border-right: none; border-bottom: 0.5px solid var(--border-primary); }
+}
+
+/* Small tablet: compact header, stack hero sections */
+@media (max-width: 768px) {
+  .header { padding: 14px 20px; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .header-title { font-size: 16px; }
+  .outputs-panel { padding: 20px; }
+  .panel-section { padding: 16px 20px; }
   .score-hero { grid-template-columns: 1fr; }
   .consequences-grid { grid-template-columns: 1fr; }
+  .total-number { font-size: 46px; }
+  .distance-block,
+  .get-section,
+  .whatif-section,
+  .clock-section { padding: 16px 18px; }
+  .footer { flex-direction: column; gap: 4px; padding: 14px 20px; }
+}
+
+/* Mobile phone: compact everything for small screens */
+@media (max-width: 480px) {
+  .header { padding: 12px 16px; }
+  .header-title { font-size: 14px; }
+  .header-sub { font-size: 10px; }
+  .header-meta { display: none; }
+
+  .outputs-panel { padding: 14px 16px; }
+  .panel-section { padding: 12px 16px; }
+
+  .total-number { font-size: 36px; }
+  .distance-score { font-size: 28px; }
+  .clock-number { font-size: 34px; }
+  .mirror-statement { font-size: 15px; }
+  .clock-statement { font-size: 14px; }
+
+  .cluster-row { grid-template-columns: 90px 1fr 58px; gap: 8px; }
+  .cluster-name { font-size: 10px; }
+
+  input[type=range] { height: 4px; }
+  input[type=range]::-webkit-slider-thumb { width: 20px; height: 20px; }
+  input[type=range]::-moz-range-thumb { width: 20px; height: 20px; border-radius: 50%; background: var(--text-primary); border: none; cursor: pointer; }
+
+  .num-input { font-size: 13px; width: 76px; padding: 6px 8px; }
+  .slider-name { font-size: 11px; }
+  .meta-input { font-size: 14px; padding: 8px 10px; }
+
+  .preset-strip { flex-wrap: wrap; }
+  .preset-btn { font-size: 8px; padding: 4px 8px; }
+
+  .whatif-row { grid-template-columns: 1fr; gap: 2px; }
+  .whatif-saving { text-align: left; }
+
+  .clock-tab { padding: 5px 8px; font-size: 8px; }
+
+  .distance-block,
+  .get-section,
+  .whatif-section,
+  .clock-section { padding: 14px 16px; }
+
+  .donut-svg { width: 130px; height: 130px; }
+
+  .footer { flex-direction: column; gap: 4px; padding: 12px 16px; font-size: 10px; }
 }
 </style>
 </head>
