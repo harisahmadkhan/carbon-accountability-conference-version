@@ -29,7 +29,16 @@ The tool covers six emission clusters, all fully adjustable via sliders.
 
 ## Output panels
 
-The tool generates several output panels that update live as you move the sliders. These include a total tCO₂e figure with per-capita breakdown and severity rating, a donut chart showing emission share by cluster, and a ranked bar chart with the biggest offenders first. The Distance Score measures the gap between what a conference advocates for and what it actually emits. Real-world consequences translate the number into six Pakistan-specific frames covering trees, glaciers, households, and more. The GET Standards Compliance panel scores your event against the UNEP/GORD framework across 10 dimensions, live-scored green, amber, or red. The What-If Panel runs five intervention scenarios including a virtual option, vegan catering, local-only attendance, renewable energy, and offset purchase. Finally, the Counterfactual Clock shows seven frames of what the same carbon budget could have funded instead, from solar panels to school meals to reforestation.
+All panels update live as you move the sliders.
+
+- **Total tCO₂e** — per-capita breakdown and severity rating
+- **Donut chart** — emission share by cluster
+- **Ranked bar chart** — biggest offenders listed first
+- **The Distance Score** — measures the gap between what a conference advocates for and what it actually emits
+- **Real-world consequences** — six Pakistan-specific frames covering trees, glaciers, households, and more
+- **GET Standards Compliance** — scores your event against the UNEP/GORD framework across 10 dimensions, live-scored green, amber, or red
+- **What-If Panel** — five intervention scenarios including virtual attendance, vegan catering, local-only travel, renewable energy, and offset purchase
+- **Counterfactual Clock** — seven frames showing what the same carbon budget could have funded instead, from solar panels to school meals to reforestation
 
 ## Language
 
